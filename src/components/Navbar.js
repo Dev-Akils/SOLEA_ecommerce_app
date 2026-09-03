@@ -37,6 +37,12 @@ export default function Navbar() {
                   </span>
                 )}
               </Link>
+              <Link
+                href="/admin"
+                className="inline-block  text-white border-2 border-white/30 px-4 py-3 rounded"
+              >
+                Go to Admin
+              </Link>
             </div>
           </>
         )}

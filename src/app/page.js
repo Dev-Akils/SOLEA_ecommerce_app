@@ -38,7 +38,10 @@ export default async function HomePage() {
               Shop Aero 01 →
             </Link>
           </div>
-          <div className="bg-white rounded-lg h-80" />
+          <div className="bg-white rounded-lg h-80" >
+            <img src="./assets/Black.png" 
+            alt="Aero 01" className="w-full h-full object-cover" />
+          </div>
         </div>
       </section>
 
