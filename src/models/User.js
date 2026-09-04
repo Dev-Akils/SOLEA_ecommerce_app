@@ -18,6 +18,7 @@ const UserSchema = new mongoose.Schema(
     email: { type: String, required: true, unique: true, lowercase: true, trim: true },
     password: { type: String, required: true }, // hashed
     role: { type: String, enum: ["customer", "admin"], default: "customer" },
+    avatar: { type: String, default: "runner" }, // preset id — see src/lib/avatars.js
     addresses: [AddressSchema],
   },
   { timestamps: true }

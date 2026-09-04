@@ -146,7 +146,7 @@ export default async function HomePage() {
         />
         <section className="max-w-7xl relative mx-auto px-6 py-14 ">
           <div className="flex items-center justify-between mb-8">
-            <h2 className="text-2xl font-bold">The latest in motion</h2>
+            <h2 className="text-2xl  text-maroon-950  font-bold">The latest in motion</h2>
             <Link href="/shop" className="text-sm underline">
               All styles
             </Link>

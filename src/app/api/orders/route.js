@@ -14,6 +14,8 @@ export async function GET(req) {
   return NextResponse.json(orders);
 }
 
+
+
 // POST /api/orders — create an order from the cart the client sends
 export async function POST(req) {
   const auth = requireAuth(req);
