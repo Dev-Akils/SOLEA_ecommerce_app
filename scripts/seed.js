@@ -6,7 +6,11 @@ require("dotenv").config({ path: ".env.local" });
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
 
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/solea";
+
+
+// const MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/solea";
+
+const MONGODB_URI = process.env.MONGODB_URI
 
 const ProductSchema = new mongoose.Schema(
   {
